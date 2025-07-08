@@ -33,6 +33,8 @@ A console-based Java application that simulates a basic bookstore. This system d
 | **D**ependency Inversion | High-level `BookStore` depends on abstractions (`Book`, `Purchasable`) not concrete types. |
 
 ---
+###  Output be like 
+<img width="1440" alt="Screenshot 2025-07-08 at 8 55 03 PM" src="https://github.com/user-attachments/assets/9eca953f-3ab1-4801-aa8c-f6a52e66730e" />
 
-
+<img width="1440" alt="Screenshot 2025-07-08 at 8 55 57 PM" src="https://github.com/user-attachments/assets/d958aa84-cd9c-4313-93d6-a7dc0b4042d7" />
 
