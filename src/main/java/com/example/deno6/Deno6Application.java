@@ -1,14 +1,11 @@
+/**
+ * Author: Nadra Saad
+ * Date: 2025-07-08
+ */
 package com.example.deno6;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Author: Osha Saad
- * Date: 2025-07-08
- *
- * Demonstrates BookStore usage with formatted output and custom data.
- */
 @SpringBootApplication
 public class Deno6Application {
     public static void main(String[] args) {
