@@ -1,0 +1,49 @@
+thte output loke like 
+=========== PURCHASE REPORT ===========
+Looking for ISBN: B001
+ Inventory contents:
+ - ISBN: B001 | Title: Clean Code
+ - ISBN: B004 | Title: Refactoring
+ - ISBN: B005 | Title: The Art of Computer Programming
+ - ISBN: B002 | Title: The Pragmatic Programmer
+ - ISBN: B003 | Title: Design Patterns
+Payment of $120.0 received.
+Delivering paper book to Cairo, Egypt
+Looking for ISBN: B003
+ Inventory contents:
+ - ISBN: B001 | Title: Clean Code
+ - ISBN: B004 | Title: Refactoring
+ - ISBN: B005 | Title: The Art of Computer Programming
+ - ISBN: B002 | Title: The Pragmatic Programmer
+ - ISBN: B003 | Title: Design Patterns
+Payment of $90.0 received.
+Sending EBook (epub) to email: customer2@example.com
+Looking for ISBN: B004
+ Inventory contents:
+ - ISBN: B001 | Title: Clean Code
+ - ISBN: B004 | Title: Refactoring
+ - ISBN: B005 | Title: The Art of Computer Programming
+ - ISBN: B002 | Title: The Pragmatic Programmer
+ - ISBN: B003 | Title: Design Patterns
+Payment of $85.0 received.
+Sending EBook (pdf) to email: customer3@example.com
+
+=========== BOOKSTORE INVENTORY (Before Cleanup) ===========
+ISBN   | Title                          | Year | Price 
+---------------------------------------------------------------
+B001   | Clean Code                     | 2010 | $120.00
+B004   | Refactoring                    | 2022 | $85.00 
+B005   | The Art of Computer Programming | 1995 | $0.00  
+B002   | The Pragmatic Programmer       | 2015 | $135.00
+B003   | Design Patterns                | 2020 | $90.00 
+
+Cleaning up books older than 10 years...
+
+=========== BOOKSTORE INVENTORY (After Cleanup) ===========
+ISBN   | Title                          | Year | Price 
+---------------------------------------------------------------
+B004   | Refactoring                    | 2022 | $85.00 
+B002   | The Pragmatic Programmer       | 2015 | $135.00
+B003   | Design Patterns                | 2020 | $90.00 
+
+Process finished with exit code 0
